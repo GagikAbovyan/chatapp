@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MyChatApplication</string>
+    <string name="full_screen_image_item">full_screen_image_item</string>
+    <string name="close_button">close_button</string>
+    <string name="elizabeth">Elizabeth</string>
+    <string name="title_activity_messenger">MessengerActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="call">call</string>
+    <string name="chat">chat</string>
+    <string name="settings">settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="call_button">call_button</string>
+    <string name="in_search">In Search</string>
+    <string name="change_my_image_button">change_my_image_button</string>
+    <string name="change_image">change image</string>
+    <string name="change_name">change_name</string>
+    <string name="change_sur_name">change_sur_name</string>
+    <string name="smbat">Smbat</string>
+    <string name="sargsyan">Sargsyan</string>
+    <string name="profile_image">profile_image</string>
+    <string name="margin_my">055118896</string>
+    <string name="gagik_abovyan_inbox_ru">gagik-abovyan@inbox.ru</string>
+    <string name="use_apple">Use Apple</string>
+    <string name="chat_image">chat image</string>
+    <string name="input_message">input message</string>
+    <string name="hello">hello</string>
+    <string name="send_button">send button</string>
+</resources>

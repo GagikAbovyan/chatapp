@@ -1,0 +1,96 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bacground_color"
+    tools:context="vtc.room.a101.mychatapplication.fragments.SettingsFragment">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/my_image"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size" 
+        android:src="@drawable/smbat"
+        />
+
+    <TextView
+        android:id="@+id/my_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/my_image"
+        android:layout_marginStart="@dimen/margin_my"
+        android:text="@string/smbat"
+        android:textSize="@dimen/text_size_my"
+        android:layout_marginTop="@dimen/margin_from_top"
+        />
+
+    <TextView
+        android:id="@+id/my_sur_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_from_top"
+        android:layout_toEndOf="@+id/my_name"
+        android:layout_marginStart="@dimen/margin_my"
+        android:textSize="@dimen/text_size_my"
+        android:text="@string/sargsyan"
+        />
+
+    <ImageButton
+        android:id="@+id/my_change_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_image"
+        android:src="@drawable/ic_image"
+        android:layout_marginStart="27dp"
+        android:contentDescription="@string/change_my_image_button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/my_change_image"
+        android:layout_below="@+id/my_image"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="@dimen/status_size"
+        android:text="@string/change_image"
+        />
+
+    <ImageButton
+        android:id="@+id/my_change_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_change_image"
+        android:layout_marginStart="27dp"
+        android:src="@drawable/ic_replay"
+        />
+
+    <EditText
+        android:id="@+id/my_name_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/status_size"
+        android:hint="@string/change_name"
+        android:layout_alignBottom="@+id/my_change_name"
+        android:layout_toEndOf="@+id/my_change_name" />
+
+    <ImageButton
+        android:id="@+id/my_change_sur_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_change_name"
+        android:layout_marginStart="27dp"
+        android:src="@drawable/ic_replay"
+        />
+
+    <EditText
+        android:id="@+id/mu_sur_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/status_size"
+        android:hint="@string/change_sur_name"
+        android:layout_alignBottom="@+id/my_change_sur_name"
+        android:layout_toEndOf="@+id/my_change_sur_name" />
+
+
+
+</RelativeLayout>

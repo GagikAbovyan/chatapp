@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/bot_image"
+        android:layout_width="@dimen/no_name_rec"
+        android:layout_height="@dimen/no_name_rec"
+        android:src="@drawable/elizabeth"
+        />
+
+    <TextView
+        android:id="@+id/bot_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/bot_image"
+        android:textColor="#f41014"
+        android:layout_marginStart="@dimen/size_from_start"
+        android:textSize="@dimen/text_name_size"
+        android:text="@string/hello"
+        />
+
+</RelativeLayout>

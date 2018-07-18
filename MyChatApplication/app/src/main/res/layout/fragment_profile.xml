@@ -1,0 +1,83 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5e8e9"
+    tools:context="vtc.room.a101.mychatapplication.fragments.ProfileFragment">
+
+
+    <ImageView
+        android:id="@+id/image_profile"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/second_image_size"
+        android:scaleType="centerCrop"
+        android:src="@drawable/elizabeth"
+        android:contentDescription="@string/profile_image" />
+
+    <TextView
+        android:id="@+id/name_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/elizabeth"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/size_from_left"
+        android:textSize="@dimen/text_size_my"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/statud_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_my"
+        android:layout_centerInParent="true"
+        android:text="@string/in_search"
+        android:layout_toEndOf="@+id/name_profile"
+        android:layout_marginStart="@dimen/margin_my"
+        />
+
+    <TextView
+        android:id="@+id/mobile_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_profile"
+        android:layout_marginStart="@dimen/size_from_left"
+        android:layout_marginTop="@dimen/margin_my"
+        android:textSize="@dimen/text_size_my"
+        android:text="@string/margin_my"
+        />
+
+    <TextView
+        android:id="@+id/email_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mobile_profile"
+        android:layout_marginStart="@dimen/size_from_left"
+        android:layout_marginTop="@dimen/margin_my"
+        android:textSize="@dimen/text_size_my"
+        android:text="@string/gagik_abovyan_inbox_ru"
+        />
+
+    <TextView
+        android:id="@+id/us_apple_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_profile"
+        android:layout_marginStart="@dimen/size_from_left"
+        android:layout_marginTop="@dimen/margin_my"
+        android:textSize="@dimen/text_size_my"
+        android:text="@string/use_apple"
+        />
+
+    <Switch
+        android:id="@+id/us_apple_flag_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_my"
+        android:layout_alignTop="@+id/us_apple_profile"
+        android:layout_toEndOf="@+id/mobile_profile" />
+
+
+
+</RelativeLayout>

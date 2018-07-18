@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_from_all"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#bcc2d6"
+            >
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circle_image_chat_item"
+                android:layout_width="@dimen/image_size"
+                android:layout_height="@dimen/image_size"
+                android:src="@drawable/elizabeth" />
+
+            <TextView
+                android:id="@+id/name_chat_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/elizabeth"
+                android:layout_toEndOf="@+id/circle_image_chat_item"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/text_name_size"
+                android:fontFamily="cursive"
+                />
+
+            <TextView
+                android:id="@+id/status_chat_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/name_chat_item"
+                android:layout_centerInParent="true"
+                android:text="@string/in_search"
+                android:textColor="@color/in_search_color"
+                android:textSize="@dimen/text_size_last"
+                android:layout_marginStart="@dimen/size_from_start"
+                />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
